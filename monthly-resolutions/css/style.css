@@ -20,13 +20,82 @@ Author: Christopher Castig | @castig
 	clear: both;
 }
 
-
 /*----------------------------------------------------------------------------- 
 02=LAYOUT  
------------------------------------------------------------------------------*/
+----------------------------------Z-------------------------------------------*/
+body{
+     background-image: url("../images/notebook.png");
+    font-family: "Lato";
+       
+}
 
 /*----------------------------------------------------------------------------- 
 03=MAIN  
 -----------------------------------------------------------------------------*/
+#container{
+     margin: 0 auto 0 auto;
+   
+     width:1100px;
+}
+.month{
+     color: grey;
+}
+#heading{
+     font-size: larger;
+     
+}
 
+#Resolutions{
+     background-color: white;
+     float: left;
+     width: 700px;
+     padding: 20px;
+     margin: 10px;
+     box-shadow: 2px 2px silver;
 
+}
+
+#sidebar{
+     background-color: white;
+     float: left;
+     padding: 20px;
+     width: 300px;
+     margin: 10px;
+     box-shadow: 2px 2px silver;
+}
+
+#footer{
+padding: 5px;
+}
+h2{
+     font-size: 30px;
+}
+a{
+     color: red;
+}
+
+#profile{
+     border-radius: 50%;
+}
+
+h1{
+     font-size: 50px;
+     
+     margin: 10px 0 0 0 ;
+}
+li{
+     margin: 5px;;
+}
+h3{
+     margin: 0 0 20px ;
+}
+blockquote{
+     margin: 0 auto 0 2px;
+     padding: 10px;
+     border-left: 4px solid gray;
+     font-style: italic;   
+}
+
+.sideheading{
+     font-size:x-large;
+}
